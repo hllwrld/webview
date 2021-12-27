@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.hllwrld.common.WebViewService
-import com.hllwrld.common.WebViewServiceLoader
+import com.hllwrld.base.WebViewServiceLoader
 
 
 class MainActivity : AppCompatActivity() {

@@ -1,8 +1,10 @@
 pluginManagement {
+
     repositories {
         gradlePluginPortal()
         google()
         mavenCentral()
+
     }
 }
 dependencyResolutionManagement {
@@ -10,9 +12,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 rootProject.name = "webview"
 include ':app'
 include ':webview'
 include ':common'
+include ':base'
